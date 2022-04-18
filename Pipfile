@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+argon2-cffi = "*"
+sqlalchemy = "*"
+fastapi = "*"
+jose = "*"
+python-jose = "*"
+passlib = "*"
+alembic = "*"
+psycopg2-binary = "*"
+psycopg2 = "*"
+asyncpg = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+email-validator = "*"
+pydantic = "*"
+python-multipart = "*"
+pip = "*"
+install = "*"
+bcrypt = "*"
+locust = "*"
+gunicorn = "*"
+fastapi-profiler = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
